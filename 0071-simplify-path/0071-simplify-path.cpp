@@ -16,8 +16,6 @@ public:
                 str.push(el);
             }
         }
-
-        // Reconstruct the simplified path
         string simplifiedPath = "";
         while (!str.empty()) {
             simplifiedPath = "/" + str.top() + simplifiedPath;
